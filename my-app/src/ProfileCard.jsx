@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './index.css';
 
 function SimpleProfileCard({ name, age, location }) {
   const [currentAge, setCurrentAge] = useState(age);
